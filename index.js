@@ -3,8 +3,8 @@ import fetch from 'node-fetch';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const TELEGRAM_BOT_TOKEN = '1452701861:AAGlAsFmU70vK06BqoiiOpEpR09MBeQCYtA';
-const TELEGRAM_CHAT_ID = '-1001177909512';
+const TELEGRAM_BOT_TOKEN = '';
+const TELEGRAM_CHAT_ID = '';
 
 app.use(express.json());
 
